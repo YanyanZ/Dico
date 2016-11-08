@@ -3,7 +3,7 @@ CFLAGS=-W -Wall -pedantic -std=c99
 LDFLAGS=
 EXE=dico
 
-SRC=sources/main.c
+SRC=sources/main.c sources/dico.c
 OBJ=$(SRC:.c=.o)
 
 all: $(EXE)
