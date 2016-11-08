@@ -16,3 +16,6 @@ dico : $(OBJ)
 
 clean :
 	rm -f sources/*.o $(EXE)
+
+doc :
+	doxygen documentation/Doxyfile
